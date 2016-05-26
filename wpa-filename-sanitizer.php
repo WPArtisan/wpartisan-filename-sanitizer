@@ -4,7 +4,7 @@
  * Description: Sanitize media filenames to remove non-latin special characters and accents
  * Author: WPArtisan
  * Author URI: https://wpartisan.me
- * Version: 0.0.1
+ * Version: 0.0.2
  * Plugin URI: https://wpartisan.me/plugins/wpa-filename-sanitizer
  *
  */
@@ -13,7 +13,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Define the current version
-define( 'WPAFS_VERSION', '0.0.1' );
+define( 'WPAFS_VERSION', '0.0.2' );
 
 /**
  * Produces cleaner filenames for uploads
@@ -38,6 +38,13 @@ function wpartisan_sanitize_file_name( $filename ) {
 	$sanitized_filename = preg_replace('/-+/', '-', $sanitized_filename); // Replace any more than one - in a row
 	$sanitized_filename = str_replace('-.', '.', $sanitized_filename); // Remove last - if at the end
 	$sanitized_filename = strtolower( $sanitized_filename ); // Lowercase
+
+	/**
+	 * Apply any more sanitization using this filter
+	 * @var string $sanitized_filename The sanitized filename
+	 * @var string $filename           Original filename
+	 */
+	$sanitized_filename = apply_filters( 'wpartisan_sanitize_file_name', $sanitized_filename, $filename );
 
 	return $sanitized_filename;
 }
