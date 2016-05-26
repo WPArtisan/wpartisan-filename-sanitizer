@@ -1,7 +1,7 @@
 === WPArtisan Filename Sanitizer ===
 Contributors: OzTheGreat
 Donate link: https://wpartisan.me
-Tags: media,
+Tags: media, media library, upload, filenames, accents, international characters, utf8, cyrillic, german, french, polish, spanish, hungarian, czech, greek, swedish
 Requires at least: 3.0.1
 Tested up to: 4.5.2
 Stable tag: 4.5.2
@@ -34,6 +34,9 @@ Yes.
 Not currently.
 
 == Changelog ==
+
+= 0.0.3 =
+* README updates
 
 = 0.0.2 =
 * Add filter
