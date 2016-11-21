@@ -1,10 +1,10 @@
 === WPArtisan Filename Sanitizer ===
-Contributors: OzTheGreat
+Contributors: ozthegreat
 Donate link: https://wpartisan.me
 Tags: media, media library, upload, filenames, accents, international characters, utf8, cyrillic, german, french, polish, spanish, hungarian, czech, greek, swedish
 Requires at least: 3.0.1
-Tested up to: 4.5.2
-Stable tag: 4.5.2
+Tested up to: 4.6.1
+Stable tag: 0.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ Yes.
 Not currently.
 
 == Changelog ==
+
+= 0.0.3 =
+* README corrections
 
 = 0.0.3 =
 * README updates
