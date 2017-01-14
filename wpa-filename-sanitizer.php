@@ -2,9 +2,9 @@
 /**
  * Plugin Name: WPArtisan Filename Sanitizer
  * Description: Sanitize media filenames to remove non-latin special characters and accents
- * Author: WPArtisan
+ * Author: OzTheGreat (WPArtisan)
  * Author URI: https://wpartisan.me
- * Version: 0.0.4
+ * Version: 0.0.5
  * Plugin URI: https://wpartisan.me/plugins/wpa-filename-sanitizer
  *
  */
@@ -13,7 +13,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Define the current version
-define( 'WPAFS_VERSION', '0.0.4' );
+define( 'WPAFS_VERSION', '0.0.5' );
 
 /**
  * Produces cleaner filenames for uploads
