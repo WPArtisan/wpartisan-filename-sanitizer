@@ -2,9 +2,9 @@
 Contributors: ozthegreat
 Donate link: https://wpartisan.me
 Tags: media, media library, upload, filenames, accents, international characters, utf8, cyrillic, german, french, polish, spanish, hungarian, czech, greek, swedish
-Requires at least: 3.0.1
-Tested up to: 4.7.1
-Stable tag: 0.0.5
+Requires at least: 4.4
+Tested up to: 4.8.2
+Stable tag: 0.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ Yes.
 Not currently.
 
 == Changelog ==
+
+= 0.0.6 =
+* WordPress 4.8.2 compatibility check
 
 = 0.0.5 =
 * WordPress 4.7.1 compatibility check
